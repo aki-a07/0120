@@ -1,0 +1,274 @@
+/* Theme Name:repos coffee */
+
+/**********全体のCSS*********/
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Sawarabi Mincho', serif;
+    color:#666666;
+}
+
+h2,h3 {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.text {
+    text-align: center;
+}
+
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-bottom: 10%;
+}
+
+li {
+    list-style: none;
+}
+/* 画像と画像の余白（共通CSS） */
+.box {
+    padding: 3rem;
+}
+
+/*************************** headerのCSS *******************************/
+h1 {
+    text-align: left;
+    padding-left: 3%;
+}
+
+/* ナビゲーションメニュー */
+
+nav {
+    background-color:#666666;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+header nav ul {
+    display: flex;
+    justify-content: end;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 50px;
+}    
+}
+
+header nav ul li {  
+    padding: 1.0rem;    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.main-img {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+/**********************TOPのMENU　3つの画像******************/
+.content-b {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .content-b {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+.content-b img {
+    border-radius: 50%;
+
+}
+
+.more {
+    border: 1px solid #666666;
+    width: 80px;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    margin: 2em 0; 
+    margin-left: auto;
+    
+}
+
+.more a {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+}
+
+
+dl {
+    display: flex;
+}
+.news {
+    padding-left: 20%;
+}
+.news a {
+    text-decoration: none;
+}
+
+
+
+
+/****************** ABOUTページのCSS*********************/
+
+/* メイン画像 */
+.main-visual {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.img-coffee,.img-books {
+    width: 50%;  
+}
+
+.flex-box,.img-books,.img-coffee {
+    display: flex;
+    padding-top: 20px;
+}
+
+
+.about-coffee, .about-book {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+    
+@media screen and (max-width:768px) {
+.img-books,.img-coffee {
+    padding-left: 10%;
+
+}
+}
+
+.img-coffee {
+    padding-left: 200px;
+}
+
+.flex-box p {
+    padding-left: 100px;
+}
+
+.coffee_content,.book_content {
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+/* 画像を上下中央にする言語↓*/
+/* vertical-align: middle; */
+
+
+/*****************MENUページのCSS******************/
+
+.about-food {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .about-food {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }  
+}
+
+.about-food img {
+    border-radius: 50%; 
+
+}
+
+
+.about-drink {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    
+}
+
+@media screen and (min-width:768px) {
+    .about-drink {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+}
+
+.about-drink img {
+    border-radius: 50%;
+}
+
+
+
+/**************footerのCSS***********************/
+.container h1 {
+    font-size: 30px;
+    color: #ffff;
+    padding-top: 2%;
+    text-align: center;
+    
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+.footer ul li a {
+    color: #ffff;
+    padding: 1.0rem;
+    text-decoration: none;
+   
+}
+
+.footer ul li {
+    list-style: none;
+    padding-top: 3%;
+}
+
+.container {
+    background-color: #666666;
+    opacity: 0.8;
+}
+
+.repos-img {
+    width: 200px;
+    margin: 40px auto;
+}
+
+.repos-img img {
+    border-radius: 50%;
+}
+
+
+
+
+
+
